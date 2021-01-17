@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+
+h1 {
+  font-family: "Catamaran", Helvetica, Arial, sans-serif;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer-links, .web {
+  padding: 4px;
+}
+
+.container-footer {
+  background-color: #222222;
+  color: #646464;
+  margin: 0;
+  border: 0;
+  padding: 20px 0;
+}
+
+.footer-links:hover {
+  color: #fdcc52;
+  cursor: pointer;
+}
+
+.twitter {
+  background-color: #1da1f2;
+  height: 83px;
+  width: 83px;
+  border-radius: 100%;
+  color: white;
+  font-size: 0.6rem;
+}
+
+.facebook {
+  background-color: #4267b2;
+  height: 83px;
+  width: 83px;
+  border-radius: 100%;
+  color: white;
+  font-size: 0.6rem;
+}
+
+.google {
+  background-color: #f80000;
+  height: 83px;
+  width: 83px;
+  border-radius: 100%;
+  color: white;
+  font-size: 0.6rem;
+}
+
+.twitter-icon {
+  position: relative;
+  top: 17px;
+  left: 17px;
+}
+
+.facebook-icon {
+  position: relative;
+  top: 17px;
+  left: 25px;
+}
+
+.google-icon {
+  position: relative;
+  top: 17px;
+  left: 12px;
+}
+
+.icon, .twitter {
+  margin: 0 0.5rem;
+}
+
+.container2 {
+  background-color: rgba(254, 201, 71, 0.9);
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.container2:hover {
+  background-color: #fec947;
+}
+
+.social-header {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 100;
+}
+
+.heart {
+  color: red;
+  font-size: larger;
+}
+
+.stopWaiting {
+  height: 800px;
+  background-image: url("bg-cta.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.outline-button {
+  border: 1px solid #555353;
+  border-radius: 30px;
+  transition-duration: 300ms;
+}
+
+.outline-button:hover {
+  background-color: #fdcc52;
+  border: 1px solid #fdcc52;
+}
+
+.stop {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 100;
+  padding: 180px 180px;
+}
+
+.btn {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.button {
+  border: 1px solid white;
+  border-radius: 100px;
+  text-align: center;
+  width: 200px;
+}
+
+/*# sourceMappingURL=style.css.map */
